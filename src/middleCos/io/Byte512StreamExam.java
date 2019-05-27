@@ -19,7 +19,7 @@ public class Byte512StreamExam {
 			
 			
 			int read = -1;
-			byte[] bytes = new byte[512];
+			byte[] bytes = new byte[512];  //운영체제가 한번에 작업하는 최대 byte 수
 			
 			while( (read = fis.read(bytes)) != -1 ) {
 				fos.write(bytes, 0, read);
