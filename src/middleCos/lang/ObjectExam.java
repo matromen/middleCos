@@ -67,7 +67,7 @@ public class ObjectExam {
 
 	@Override
 	public String toString() {
-		return "ObjectExam [name=" + name + ", number=" + number + ", birthDay=" + birthDay + "]";
+		return "ObjectExam [장난이 아니구만 name=" + name + ", number=" + number + ", birthDay=" + birthDay + "]";
 	}
 	
 	
