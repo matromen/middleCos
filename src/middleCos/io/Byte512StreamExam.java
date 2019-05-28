@@ -14,8 +14,8 @@ public class Byte512StreamExam {
 		FileOutputStream fos = null;
 		
 		try {
-			fis = new FileInputStream(new File("src/middleCos/io/ByteStreamExam.java"));
-			fos = new FileOutputStream(new File("byte.txt"));
+			fis = new FileInputStream(new File("곰.JPG"));
+			fos = new FileOutputStream(new File("곰-1.JPG"));
 			
 			
 			int read = -1;
